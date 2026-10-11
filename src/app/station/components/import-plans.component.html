@@ -1,15 +1,15 @@
 <div class="modal-header">
-   <h4 class="modal-title">Import Plans</h4>
-   <button type="button" class="close" aria-label="Close" (click)="activeModal.close()">
+   <h4 class="modal-title"><ng-container i18n="@@importPlans">Import Plans</ng-container></h4>
+   <button type="button" class="close" aria-label="Close" i18n-aria-label="@@close" (click)="activeModal.close()">
       <span aria-hidden="true">&times;</span>
    </button>
 </div>
 <div class="modal-body">
-   <div>Paste the <span class="font-italic text-info">constructionplans.xml</span> content below. The plans will be added to your saved layout list.</div>
-   <div class="small text-secondary">File can be found in Documents\Egosoft\X4\[12345678]\constructionplans.xml</div>
+   <div><ng-container i18n="@@pasteThe">Paste the</ng-container> <span class="font-italic text-info">constructionplans.xml</span> <ng-container i18n="@@contentBelowThePlansWillBe">content below. The plans will be added to your saved layout list.</ng-container></div>
+   <div class="small text-secondary"><ng-container i18n="@@fileCanBeFoundInDocuments">File can be found in Documents\Egosoft\X4\[12345678]\constructionplans.xml</ng-container></div>
    <textarea class="w-100 mt-2" rows="10" [(ngModel)]="xml"></textarea>
 </div>
 <div class="modal-footer">
-   <button type="button" class="btn btn-success" (click)="importPlans()" [disabled]="!canImport">Import</button>
+   <button type="button" class="btn btn-success" (click)="importPlans()" [disabled]="!canImport"><ng-container i18n="@@import">Import</ng-container></button>
    <button type="button" class="btn btn-secondary" (click)="activeModal.close()" i18n="@@cancel">Cancel</button>
 </div>

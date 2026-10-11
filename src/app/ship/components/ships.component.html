@@ -1,8 +1,8 @@
 <div class="row content-row">
   <div class="col-md-12">
     <div class="card shadow">
-      <div class="card-header shadow-sm" i18n="@@stationModules">
-        Ships
+      <div class="card-header shadow-sm" >
+        <ng-container i18n="@@ships">Ships</ng-container>
       </div>
       <div class="card-body">
         <dx-data-grid [dataSource]="entities"
@@ -17,24 +17,24 @@
           <dxo-filter-row [applyFilter]="currentFilter" [visible]="true"></dxo-filter-row>
           <dxo-filter-panel [visible]="true"></dxo-filter-panel>
 
-          <dxi-column dataField="name" caption="Name"></dxi-column>
-          <dxi-column dataField="race.id" caption="Race">
+          <dxi-column dataField="name" caption="Name" i18n-caption="@@name"></dxi-column>
+          <dxi-column dataField="race.id" caption="Race" i18n-caption="@@race">
             <dxo-lookup [dataSource]="races" valueExpr="id" displayExpr="name"></dxo-lookup>
           </dxi-column>
-          <dxi-column dataField="type" caption="Type">
+          <dxi-column dataField="type" caption="Type" i18n-caption="@@type">
             <dxo-lookup [dataSource]="shipTypes"></dxo-lookup>
           </dxi-column>
-          <dxi-column dataField="size" caption="Size">
+          <dxi-column dataField="size" caption="Size" i18n-caption="@@size">
             <dxo-lookup [dataSource]="sizes"></dxo-lookup>
           </dxi-column>
-          <dxi-column dataField="purpose" caption="Purpose">
+          <dxi-column dataField="purpose" caption="Purpose" i18n-caption="@@purpose">
             <dxo-lookup [dataSource]="purposes"></dxo-lookup>
           </dxi-column>
 
-          <dxi-column name="weapons" caption="Weapons" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateWeapons"></dxi-column>
-          <dxi-column name="turrets" caption="Turrets" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateTurrets"></dxi-column>
-          <dxi-column name="shields" caption="Shields" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateShields"></dxi-column>
-          <dxi-column dataField="people" caption="People" dataType="number"></dxi-column>
+          <dxi-column name="weapons" caption="Weapons" i18n-caption="@@weapons" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateWeapons"></dxi-column>
+          <dxi-column name="turrets" caption="Turrets" i18n-caption="@@turrets" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateTurrets"></dxi-column>
+          <dxi-column name="shields" caption="Shields" i18n-caption="@@shields" dataType="number" [allowSorting]="true" [allowFiltering]="true" [calculateCellValue]="calculateShields"></dxi-column>
+          <dxi-column dataField="people" caption="People" i18n-caption="@@people" dataType="number"></dxi-column>
 
           <dxo-summary>
             <dxi-total-item

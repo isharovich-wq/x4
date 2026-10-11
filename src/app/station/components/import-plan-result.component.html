@@ -1,21 +1,21 @@
 <ng-container *ngIf="result">
    <!-- No plan was imported -->
    <div class="alert alert-danger" *ngIf="result.error && (!result.layouts || result.layouts.length === 0)">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="result = null">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" i18n-aria-label="@@close" (click)="result = null">
          <span aria-hidden="true">&times;</span>
       </button>
       <div>
-         Failed to import plans.
+         <ng-container i18n="@@failedToImportPlans">Failed to import plans.</ng-container>
       </div>
    </div>
 
    <!-- Some plans were imported -->
    <div class="alert alert-warning" *ngIf="result.error && result.layouts && result.layouts.length > 0">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close" (click)="result = null">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" i18n-aria-label="@@close" (click)="result = null">
          <span aria-hidden="true">&times;</span>
       </button>
       <div>
-         Imported plans, but errors occurred trying to import some of them.
+         <ng-container i18n="@@importedPlansButErrorsOccurredTrying">Imported plans, but errors occurred trying to import some of them.</ng-container>
          <div class="small">
             <ng-container *ngFor="let item of result.layouts; let last = last">
                <a (click)="selectLayout(item)" class="cursor-pointer link text-primary">{{ item }}</a>
@@ -27,11 +27,11 @@
 
    <!-- All plans were imported -->
    <div class="alert alert-success" *ngIf="!result.error && result.layouts && result.layouts.length > 0">
-      <button type="button" class="close pull-right" data-dismiss="alert" aria-label="Close" (click)="result = null">
+      <button type="button" class="close pull-right" data-dismiss="alert" aria-label="Close" i18n-aria-label="@@close" (click)="result = null">
          <span aria-hidden="true">&times;</span>
       </button>
       <div>
-         Successfully imported plans
+         <ng-container i18n="@@successfullyImportedPlans">Successfully imported plans</ng-container>
          <div class="small">
             <ng-container *ngFor="let item of result.layouts; let last = last">
                <a (click)="selectLayout(item)" class="cursor-pointer link text-primary">{{ item }}</a>

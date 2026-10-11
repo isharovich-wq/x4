@@ -40,3 +40,13 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+*.orig
+dist/
+x4-localize-report.txt
+x4-templates-report.txt
+xlf-untranslated.*.txt
+diag.txt
+module-names.txt
+nginx-x4.conf
+src/i18n-new/

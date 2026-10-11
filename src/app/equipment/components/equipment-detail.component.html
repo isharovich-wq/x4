@@ -2,10 +2,10 @@
    <div class="col-md-12">
       <div class="card shadow" *ngIf="entity">
          <div class="card-header shadow-sm">
-            <a routerLink="/races">Equipment</a> - {{ entity.name }}
+            <a routerLink="/races"><ng-container i18n="@@equipment">Equipment</ng-container></a> - {{ entity.name }}
          </div>
          <div class="card-body small">
-            Coming soon
+            <ng-container i18n="@@comingSoon">Coming soon</ng-container>
          </div>
       </div>
    </div>

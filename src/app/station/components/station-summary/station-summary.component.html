@@ -29,7 +29,7 @@
       </tr>
       <tr class="text-danger" *ngIf="isHq">
          <td class="pl-4">
-            1 x Unknown Module
+            <ng-container i18n="@@1XUnknownModule">1 x Unknown Module</ng-container>
          </td>
          <td class="text-right">-200</td>
       </tr>
@@ -81,7 +81,7 @@
          <div class="row">
             <div class="form-group col">
                <label for="workforce-slider">
-                  <span>Actual Workforce:</span>&nbsp;<strong>{{ partialWorkforce | number:'1.0-0' }}</strong>
+                  <span><ng-container i18n="@@actualWorkforceColon">Actual Workforce:</ng-container></span>&nbsp;<strong>{{ partialWorkforce | number:'1.0-0' }}</strong>
                </label>
 
                <div class="d-flex flex-row">
@@ -226,7 +226,7 @@
 
             <div class="form-group col">
                <label for="products-price">
-                  <span>Products Price:</span>&nbsp;
+                  <span><ng-container i18n="@@productsPrice">Products Price:</ng-container></span>&nbsp;
                   <strong [ngSwitch]="productsPrice">
                      <ng-container *ngSwitchCase="0"><span i18n="@@min">Min</span></ng-container>
                      <ng-container *ngSwitchCase="50"><span i18n="@@average">Average</span></ng-container>

@@ -87,6 +87,12 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "ru": {
+              "localize": [
+                "ru"
+              ],
+              "outputPath": "dist/x4-ru"
             }
           },
           "defaultConfiguration": "production"
@@ -126,6 +132,15 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        }
+      },
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "ru": {
+            "translation": "src/i18n/messages.ru.xlf",
+            "baseHref": "/x4/"
           }
         }
       }

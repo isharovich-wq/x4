@@ -17,23 +17,23 @@
                <dxo-filter-row [applyFilter]="currentFilter" [visible]="true"></dxo-filter-row>
                <dxo-filter-panel [visible]="true"></dxo-filter-panel>
 
-               <dxi-column dataField="name" caption="Name"></dxi-column>
-               <dxi-column dataField="type" caption="Type">
+               <dxi-column dataField="name" caption="Name" i18n-caption="@@name"></dxi-column>
+               <dxi-column dataField="type" caption="Type" i18n-caption="@@type">
                   <dxo-lookup [dataSource]="moduleTypes"></dxo-lookup>
                </dxi-column>
-               <dxi-column dataField="makerRace.id" caption="Race">
+               <dxi-column dataField="makerRace.id" caption="Race" i18n-caption="@@race">
                   <dxo-lookup [dataSource]="races" valueExpr="id" displayExpr="name"></dxo-lookup>
                </dxi-column>
                <dxi-column [calculateDisplayValue]="calculateProduct"
                            [allowSorting]="true"
                            [allowFiltering]="true"
-                           caption="Product"
+                           caption="Product" i18n-caption="@@product"
                            name="productName"></dxi-column>
                <dxi-column [calculateDisplayValue]="calculateMaxEfficiencyDisplay"
                            [calculateSortValue]="calculateMaxEfficiency"
                            [allowSorting]="true"
                            [allowFiltering]="true"
-                           caption="Max Efficiency"
+                           caption="Max Efficiency" i18n-caption="@@maxEfficiency"
                            name="maxEfficiency"></dxi-column>
                <dxo-summary>
                   <dxi-total-item

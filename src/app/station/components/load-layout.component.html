@@ -1,6 +1,6 @@
 <div class="modal-header">
   <h4 class="modal-title" i18n="@@loadLayout">Load Layout</h4>
-  <button type="button" class="close" aria-label="Close" (click)="activeModal.close()">
+  <button type="button" class="close" aria-label="Close" i18n-aria-label="@@close" (click)="activeModal.close()">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
@@ -10,8 +10,8 @@
       <div>
         <strong>{{ entity.name }}</strong>
         <div class="float-right small">
-          <a class="hover text-primary" i18n="@@load" (click)="loadLayout($event, entity)">Load Layout</a> |
-          <a class="hover text-secondary" i18n="@@load" (click)="addLayout($event, entity)">Add Modules</a> |
+          <a class="hover text-primary" i18n="@@loadLayout" (click)="loadLayout($event, entity)">Load Layout</a> |
+          <a class="hover text-secondary" (click)="addLayout($event, entity)"><ng-container i18n="@@addModules">Add Modules</ng-container></a> |
           <a class="hover text-danger" (click)="deleteLayout($event, entity)" i18n="@@delete">Delete Layout</a>
         </div>
       </div>

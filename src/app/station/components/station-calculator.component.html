@@ -7,7 +7,7 @@
                 <button (click)="saveLayoutAs()" class="btn btn-sm btn-primary" type="button"><i class="fa fa-save"></i>&nbsp;<span i18n="@@saveAs">Save As</span></button>&nbsp;
                 <button (click)="loadLayout()" class="btn btn-sm btn-info" type="button"><i class="fa fa-folder-open"></i>&nbsp;<span i18n="@@load">Load</span></button>&nbsp;
                 <button (click)="shareLayout()" class="btn btn-sm btn-secondary" type="button"><i class="fa fa-share-square"></i>&nbsp;<span i18n="@@share">Share</span></button>&nbsp;
-                <button (click)="importPlans()" class="btn btn-sm btn-dark" type="button"><i class="fa fa-file-text"></i>&nbsp;<span i18n="@@share">Import</span></button>
+                <button (click)="importPlans()" class="btn btn-sm btn-dark" type="button"><i class="fa fa-file-text"></i>&nbsp;<span><ng-container i18n="@@import">Import</ng-container></span></button>
             </div>
             <div class="card-body">
                 <div class="row" *ngIf="messages.length || importResult">
@@ -20,10 +20,10 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <h6 class="card-title d-flex align-items-center">
-                            <span *ngIf="!layout" class="flex-fill">Station Modules</span>
+                            <span *ngIf="!layout" class="flex-fill"><ng-container i18n="@@stationModules">Station Modules</ng-container></span>
                             <span *ngIf="layout" class="flex-fill">{{ layout.name }}</span>
                             <div class="d-flex align-items-center">
-                                <label class="form-label text-nowrap px-2">Sun Light</label>
+                                <label class="form-label text-nowrap px-2"><ng-container i18n="@@sunLight">Sun Light</ng-container></label>
 
                                 <div class="input-group">
                                     <input type="text" id="sun-light" name="sunlight" class="form-control" style="width: 70px" [(ngModel)]="sunlight">
@@ -35,12 +35,12 @@
                         <app-station-modules [modules]="modules" (change)="onChange()" [sunlight]="sunlight"></app-station-modules>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <h6 class="card-title">Station Resources</h6>
+                        <h6 class="card-title"><ng-container i18n="@@stationResources">Station Resources</ng-container></h6>
 
                         <app-station-resources #stationResources [modules]="modules" [sunlight]="sunlight"></app-station-resources>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <h6 class="card-title">Station Summary</h6>
+                        <h6 class="card-title"><ng-container i18n="@@stationSummary">Station Summary</ng-container></h6>
 
                         <app-station-summary #stationSummary [modules]="modules" [sunlight]="sunlight"></app-station-summary>
                     </div>

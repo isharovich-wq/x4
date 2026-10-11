@@ -2,7 +2,7 @@
   <div class="col-md-12">
     <div class="card shadow" *ngIf="entity">
       <div class="card-header shadow-sm">
-        <a routerLink="/factions">Factions</a> - {{ entity.name }}
+        <a routerLink="/factions"><ng-container i18n="@@factions">Factions</ng-container></a> - {{ entity.name }}
       </div>
       <div class="card-body small" *ngIf="entity">
         <div class="form-group row" *ngIf="entity.description != 'No information available'">
@@ -10,7 +10,7 @@
         </div>
 
         <dl class="row">
-          <dt class="col-sm-2">Race</dt>
+          <dt class="col-sm-2"><ng-container i18n="@@race">Race</ng-container></dt>
           <dd class="col-sm-10">
             <span *ngIf="entity.race">
               <a [routerLink]="['/races', entity.race.id]">{{ entity.race.name }}</a>
@@ -23,12 +23,12 @@
           <div class="col-12">
             <div class="card shadow-sm">
               <div class="card-header">
-                Licenses
+                <ng-container i18n="@@licenses">Licenses</ng-container>
               </div>
               <div class="card-body">
                  <dx-data-grid [dataSource]="entity.licenses" [showBorders]="true" [hoverStateEnabled]="true">
-                    <dxi-column dataField="name" caption="Name"></dxi-column>
-                    <dxi-column dataField="price" caption="Price" dataType="number" format="fixedPoint"></dxi-column>
+                    <dxi-column dataField="name" caption="Name" i18n-caption="@@name"></dxi-column>
+                    <dxi-column dataField="price" caption="Price" i18n-caption="@@price" dataType="number" format="fixedPoint"></dxi-column>
                  </dx-data-grid>
               </div>
             </div>

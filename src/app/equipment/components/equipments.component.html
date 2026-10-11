@@ -17,17 +17,17 @@
                <dxo-filter-row [applyFilter]="currentFilter" [visible]="true"></dxo-filter-row>
                <dxo-filter-panel [visible]="true"></dxo-filter-panel>
 
-               <dxi-column dataField="name" caption="Name"></dxi-column>
-               <dxi-column dataField="size" caption="Size">
+               <dxi-column dataField="name" caption="Name" i18n-caption="@@name"></dxi-column>
+               <dxi-column dataField="size" caption="Size" i18n-caption="@@size">
                   <dxo-lookup [dataSource]="sizes"></dxo-lookup>
                </dxi-column>
-               <dxi-column dataField="race.id" caption="Race">
+               <dxi-column dataField="race.id" caption="Race" i18n-caption="@@race">
                   <dxo-lookup [dataSource]="races" valueExpr="id" displayExpr="name"></dxo-lookup>
                </dxi-column>
-               <dxi-column dataField="type" caption="Type">
+               <dxi-column dataField="type" caption="Type" i18n-caption="@@type">
                   <dxo-lookup [dataSource]="equipmentTypes"></dxo-lookup>
                </dxi-column>
-               <dxi-column dataField="equipmentClass" caption="Class">
+               <dxi-column dataField="equipmentClass" caption="Class" i18n-caption="@@class">
                   <dxo-lookup [dataSource]="equipmentClasses"></dxo-lookup>
                </dxi-column>
 

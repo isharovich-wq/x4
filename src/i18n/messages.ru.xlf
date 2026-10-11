@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target-language="ru">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source><target state="translated">Закрыть</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source><target state="translated">ЧЧ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source><target state="translated">Закрыть</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source><target state="translated">Выберите месяц</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source><target state="translated">Предыдущий месяц</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source><target state="translated"> Слайд <x id="INTERPOLATION"/> из <x id="INTERPOLATION_1"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source><target state="translated">Часы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source><target state="translated">ММ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source><target state="translated">Предыдущая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source><target state="translated">Выберите год</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source><target state="translated">Следующий месяц</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source><target state="translated">Минуты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source><target state="translated">Следующая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source><target state="translated">Увеличить часы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source><target state="translated">Первая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source><target state="translated">Предыдущая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source><target state="translated">Уменьшить часы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source><target state="translated">Следующая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source><target state="translated">Увеличить минуты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source><target state="translated">Последняя</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source><target state="translated">Уменьшить минуты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source><target state="translated">СС</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source><target state="translated">Секунды</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source><target state="translated">Увеличить секунды</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source><target state="translated">Уменьшить секунды</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about" datatype="html">
+        <source>About</source><target state="translated">О проекте</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="x4FoundationsDatabaseAndUtilities" datatype="html">
+        <source>X4: Foundations Database and Utilities</source><target state="translated">X4: Foundations — база данных и утилиты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="openSourceProjectOn" datatype="html">
+        <source>Open source project on</source><target state="translated">Проект с открытым исходным кодом на</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feelFreeToForkAndContribute" datatype="html">
+        <source>. Feel free to fork and contribute.</source><target state="translated">. Можно создавать форки и вносить свой вклад.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/about.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="equipment" datatype="html">
+        <source>Equipment</source><target state="translated">Оборудование</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipment-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="comingSoon" datatype="html">
+        <source>Coming soon</source><target state="translated">Скоро</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipment-detail.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="name" datatype="html">
+        <source>Name</source><target state="translated">Название</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/faction-detail.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/factions.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/races/components/races.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="size" datatype="html">
+        <source>Size</source><target state="translated">Размер</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="race" datatype="html">
+        <source>Race</source><target state="translated">Раса</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/faction-detail.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="type" datatype="html">
+        <source>Type</source><target state="translated">Тип</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="class" datatype="html">
+        <source>Class</source><target state="translated">Класс</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/equipment/components/equipments.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="factions" datatype="html">
+        <source>Factions</source><target state="translated">Фракции</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/faction-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/factions.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="licenses" datatype="html">
+        <source>Licenses</source><target state="translated">Лицензии</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/faction-detail.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="price" datatype="html">
+        <source>Price</source><target state="translated">Цена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/faction-detail.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description" datatype="html">
+        <source>Description</source><target state="translated">Описание</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/faction/components/factions.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/races/components/races.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stationCalculator" datatype="html">
+        <source>Station Calculator</source><target state="translated">Калькулятор станций</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="wares" datatype="html">
+        <source>Wares</source><target state="translated">Товары</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">160</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stationModules" datatype="html">
+        <source>Station Modules</source><target state="translated">Модули станций</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ships" datatype="html">
+        <source>Ships</source><target state="translated">Корабли</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="races" datatype="html">
+        <source>Races</source><target state="translated">Расы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/races/components/race-detail.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/races/components/races.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="product" datatype="html">
+        <source>Product</source><target state="translated">Продукт</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="storageCapacityParen" datatype="html">
+        <source>Storage Capacity (</source><target state="translated">Вместимость хранилища (</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hull" datatype="html">
+        <source>Hull</source><target state="translated">Корпус</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="explosionDamage" datatype="html">
+        <source>Explosion Damage</source><target state="translated">Урон от взрыва</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="workforceNeeded" datatype="html">
+        <source>Workforce Needed</source><target state="translated">Требуется рабочих</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="workforceCapacity" datatype="html">
+        <source>Workforce Capacity</source><target state="translated">Вместимость рабочей силы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">47,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="owners" datatype="html">
+        <source>Owners</source><target state="translated">Владельцы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="turrets" datatype="html">
+        <source>Turrets</source><target state="translated">Турели</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shields" datatype="html">
+        <source>Shields</source><target state="translated">Щиты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productionColon" datatype="html">
+        <source>Production:</source><target state="translated">Производство:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="requirements" datatype="html">
+        <source>Requirements</source><target state="translated">Требования</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resources" datatype="html">
+        <source>Resource</source><target state="translated">Ресурс</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="min" datatype="html">
+        <source>Min</source><target state="translated">Мин.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">98</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">231</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">297</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="max" datatype="html">
+        <source>Max</source><target state="translated">Макс.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">299</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="avg" datatype="html">
+        <source>Avg</source><target state="translated">Сред.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="total2" datatype="html">
+        <source>Total</source><target state="translated">Итого</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="production" datatype="html">
+        <source>Production</source><target state="translated">Производство</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">156</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="time" datatype="html">
+        <source>Time</source><target state="translated">Время</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/module-detail.component.html</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="maxEfficiency" datatype="html">
+        <source>Max Efficiency</source><target state="translated">Макс. эффективность</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/module/components/modules.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="close" datatype="html">
+        <source>Close</source><target state="translated">Закрыть</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/confirm.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/messages.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/save-layout.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/share-layout.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="yes" datatype="html">
+        <source>Yes</source><target state="translated">Да</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/confirm.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="no" datatype="html">
+        <source>No</source><target state="translated">Нет</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/confirm.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="missileStorage" datatype="html">
+        <source>Missile Storage</source><target state="translated">Хранилище ракет</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="droneStorage" datatype="html">
+        <source>Drone Storage</source><target state="translated">Хранилище дронов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="people" datatype="html">
+        <source>People</source><target state="translated">Экипаж</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="purpose" datatype="html">
+        <source>Purpose</source><target state="translated">Назначение</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="engines" datatype="html">
+        <source>Engines</source><target state="translated">Двигатели</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="docks" datatype="html">
+        <source>Docks</source><target state="translated">Доки</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weapons" datatype="html">
+        <source>Weapons</source><target state="translated">Оружие</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ships.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mainShields" datatype="html">
+        <source>Main Shields</source><target state="translated">Основные щиты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="additionalShields" datatype="html">
+        <source>Additional Shields</source><target state="translated">Дополнительные щиты</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ship/components/ship-detail.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="select" datatype="html">
+        <source>( Select )</source><target state="translated">( Выбрать )</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/autocomplete/autocomplete.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="failedToImportPlans" datatype="html">
+        <source>Failed to import plans.</source><target state="translated">Не удалось импортировать планы.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="importedPlansButErrorsOccurredTrying" datatype="html">
+        <source>Imported plans, but errors occurred trying to import some of them.</source><target state="translated">Планы импортированы, но при импорте некоторых из них возникли ошибки.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="successfullyImportedPlans" datatype="html">
+        <source>Successfully imported plans</source><target state="translated">Планы успешно импортированы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plan-result.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="importPlans" datatype="html">
+        <source>Import Plans</source><target state="translated">Импорт планов</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pasteThe" datatype="html">
+        <source>Paste the</source><target state="translated">Вставьте содержимое файла</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contentBelowThePlansWillBe" datatype="html">
+        <source>content below. The plans will be added to your saved layout list.</source><target state="translated">ниже. Планы будут добавлены в список ваших сохранённых планировок.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fileCanBeFoundInDocuments" datatype="html">
+        <source>File can be found in Documents\Egosoft\X4\[12345678]\constructionplans.xml</source><target state="translated">Файл находится в Documents\Egosoft\X4\[12345678]\constructionplans.xml</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="import" datatype="html">
+        <source>Import</source><target state="translated">Импорт</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cancel" datatype="html">
+        <source>Cancel</source><target state="translated">Отмена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/import-plans.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/save-layout.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loadLayout" datatype="html">
+        <source>Load Layout</source><target state="translated">Загрузить планировку</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addModules" datatype="html">
+        <source>Add Modules</source><target state="translated">Добавить модули</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="delete" datatype="html">
+        <source>Delete Layout</source><target state="translated">Удалить планировку</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/load-layout.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="saveLayout" datatype="html">
+        <source>Save Layout</source><target state="translated">Сохранить планировку</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/save-layout.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="save" datatype="html">
+        <source>Save</source><target state="translated">Сохранить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/save-layout.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="shareLayout" datatype="html">
+        <source>Share Layout</source><target state="translated">Поделиться планировкой</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/share-layout.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="copy" datatype="html">
+        <source>Copy</source><target state="translated">Копировать</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/share-layout.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ok" datatype="html">
+        <source>Ok</source><target state="translated">ОК</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/share-layout.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="newLayout" datatype="html">
+        <source>New</source><target state="translated">Новая</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="saveAs" datatype="html">
+        <source>Save As</source><target state="translated">Сохранить как</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="load" datatype="html">
+        <source>Load</source><target state="translated">Загрузить</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="share" datatype="html">
+        <source>Share</source><target state="translated">Поделиться</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sunLight" datatype="html">
+        <source>Sun Light</source><target state="translated">Солнечный свет</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stationResources" datatype="html">
+        <source>Station Resources</source><target state="translated">Ресурсы станции</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stationSummary" datatype="html">
+        <source>Station Summary</source><target state="translated">Сводка по станции</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-calculator.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="module" datatype="html">
+        <source>Module</source><target state="translated">Модуль</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-modules.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="count" datatype="html">
+        <source>Count</source><target state="translated">Количество</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-modules.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="moduleCount" datatype="html">
+        <source>Module Count</source><target state="translated">Количество модулей</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-modules.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="addModule" datatype="html">
+        <source>Add Module</source><target state="translated">Добавить модуль</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-modules.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="autofillModules" datatype="html">
+        <source>Autofill Modules</source><target state="translated">Автозаполнение модулей</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-modules.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="amount" datatype="html">
+        <source>Amount</source><target state="translated">Количество</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="at" datatype="html">
+        <source> at</source><target state="translated"> при</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efficiency" datatype="html">
+        <source>efficiency</source><target state="translated">эффективности</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="capacity" datatype="html">
+        <source>capacity</source><target state="translated">мощности</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-resources/station-resources.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="workforce" datatype="html">
+        <source>Workforce</source><target state="translated">Рабочая сила</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="value" datatype="html">
+        <source>Value</source><target state="translated">Значение</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="neededWorkforce" datatype="html">
+        <source> Needed Workforce </source><target state="translated"> Требуемая рабочая сила </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1XUnknownModule" datatype="html">
+        <source>1 x Unknown Module</source><target state="translated">1 × неизвестный модуль</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="isHeadquarters" datatype="html">
+        <source>Headquarters (The HQ needs 200 workers for some reason)</source><target state="translated">Штаб-квартира (штабу почему-то нужно 200 рабочих)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="actualWorkforceColon" datatype="html">
+        <source>Actual Workforce:</source><target state="translated">Фактическая рабочая сила:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="isAutoWorkforce" datatype="html">
+        <source>Auto</source><target state="translated">Авто</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productionPerHour" datatype="html">
+        <source>Production Per Hour</source><target state="translated">Производство в час</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="expenses" datatype="html">
+        <source> Expenses</source><target state="translated"> Расходы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profit" datatype="html">
+        <source> Profit</source><target state="translated"> Прибыль</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="minersProvideBasicResources" datatype="html">
+        <source>Miners provide basic resources</source><target state="translated">Добытчики обеспечивают базовые ресурсы</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">182,183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="rovideAllResources" datatype="html">
+        <source>Resources are provided by other stations</source><target state="translated">Ресурсы поставляются другими станциями</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">197,198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcePrice" datatype="html">
+        <source>Resources Price:</source><target state="translated">Цена ресурсов:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="average" datatype="html">
+        <source>Average</source><target state="translated">Средняя</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">298</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productsPrice" datatype="html">
+        <source>Products Price:</source><target state="translated">Цена продукции:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="stationCosts" datatype="html">
+        <source>Station Costs</source><target state="translated">Стоимость станции</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="total" datatype="html">
+        <source>Total:</source><target state="translated">Итого:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="resourcesPrice" datatype="html">
+        <source>Resources Price:</source><target state="translated">Цена ресурсов:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/station/components/station-summary/station-summary.component.html</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="differenceColon" datatype="html">
+        <source>(difference:</source><target state="translated">(разница:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="volume" datatype="html">
+        <source>Volume</source><target state="translated">Объём</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="transport" datatype="html">
+        <source>Transport</source><target state="translated">Транспорт</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="illegal" datatype="html">
+        <source>Illegal</source><target state="translated">Нелегально</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="construction" datatype="html">
+        <source>Construction</source><target state="translated">Строительство</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cycleTime" datatype="html">
+        <source>Cycle Time</source><target state="translated">Время цикла</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="batchSize" datatype="html">
+        <source>Batch Size</source><target state="translated">Размер партии</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="productsPerHour" datatype="html">
+        <source>Products per Hour</source><target state="translated">Продукции в час</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profitPerHour100Efficiency" datatype="html">
+        <source>Profit per Hour (100% Efficiency)</source><target state="translated">Прибыль в час (100% эффективности)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="minColon" datatype="html">
+        <source>Min:</source><target state="translated">Мин.:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="avgColon" datatype="html">
+        <source>Avg:</source><target state="translated">Сред.:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="maxColon" datatype="html">
+        <source>Max:</source><target state="translated">Макс.:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="profitPerHourParen" datatype="html">
+        <source>Profit per Hour (</source><target state="translated">Прибыль в час (</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="percentEfficiency" datatype="html">
+        <source>% Efficiency)</source><target state="translated">% эффективности)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="requiredFor" datatype="html">
+        <source>Required For</source><target state="translated">Требуется для</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="noUsageFound" datatype="html">
+        <source>No usage found.</source><target state="translated">Применений не найдено.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">164</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">180</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/ware-detail.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="minPrice" datatype="html">
+        <source>Min Price</source><target state="translated">Мин. цена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="avgPrice" datatype="html">
+        <source>Avg Price</source><target state="translated">Сред. цена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="maxPrice" datatype="html">
+        <source>Max Price</source><target state="translated">Макс. цена</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="priceDiffVolume" datatype="html">
+        <source>Price Diff / Volume</source><target state="translated">Разница цен / объём</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/ware/components/wares.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

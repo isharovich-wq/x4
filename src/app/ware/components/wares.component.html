@@ -17,15 +17,15 @@
                <dxo-filter-row [applyFilter]="currentFilter" [visible]="true"></dxo-filter-row>
                <dxo-filter-panel [visible]="true"></dxo-filter-panel>
 
-               <dxi-column dataField="name" caption="Name"></dxi-column>
-               <dxi-column dataField="transport" caption="Transport">
+               <dxi-column dataField="name" caption="Name" i18n-caption="@@name"></dxi-column>
+               <dxi-column dataField="transport" caption="Transport" i18n-caption="@@transport">
                   <dxo-lookup [dataSource]="transportTypes"></dxo-lookup>
                </dxi-column>
-               <dxi-column dataField="price.min" caption="Min Price" dataType="number" format="fixedPoint"></dxi-column>
-               <dxi-column dataField="price.avg" caption="Avg Price" dataType="number" format="fixedPoint"></dxi-column>
-               <dxi-column dataField="price.max" caption="Max Price" dataType="number" format="fixedPoint"></dxi-column>
-               <dxi-column dataField="volume" caption="Volume" dataType="number" format="fixedPoint"></dxi-column>
-               <dxi-column caption="Price Diff / Volume"
+               <dxi-column dataField="price.min" caption="Min Price" i18n-caption="@@minPrice" dataType="number" format="fixedPoint"></dxi-column>
+               <dxi-column dataField="price.avg" caption="Avg Price" i18n-caption="@@avgPrice" dataType="number" format="fixedPoint"></dxi-column>
+               <dxi-column dataField="price.max" caption="Max Price" i18n-caption="@@maxPrice" dataType="number" format="fixedPoint"></dxi-column>
+               <dxi-column dataField="volume" caption="Volume" i18n-caption="@@volume" dataType="number" format="fixedPoint"></dxi-column>
+               <dxi-column caption="Price Diff / Volume" i18n-caption="@@priceDiffVolume"
                            dataType="number"
                            name="priceDiffPerVolume"
                            [allowSorting]="true"
